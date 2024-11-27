@@ -4,6 +4,7 @@ body {
     background-image: url(bg_4_v2.jpg);
     background-position: top center;
     background-color: #d6d6d6;
+    background-attachment: fixed;
 }
 
 p {
@@ -124,4 +125,53 @@ p {
 
 .smallNews:hover {
     background-color: rgba(0, 0, 0, 0);
+}
+
+.teamBlockWrapper {
+    margin: 20px 0 20px 8px;
+    height: 383px;
+}
+
+.tableContainer {
+    width: 235px;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.504);
+    border: 1px solid #ccc;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tableTitle {
+    background: #22270F;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 0 10px; 
+    line-height: 220%;
+    height: 27px;
+    font-family: 'PT Sans', Tahoma, 'HelveticaNeue', sans-serif;
+    display: flex;
+    align-items: center;
+}
+
+.playerNumber {
+    text-align: right;
+    font-family: Arial, tahoma, 'HelveticaNeue';
+    font-size: 12px;
+    padding: 2px 0;
+    border-bottom: 1px solid #b2b5b5;
+    width: 19px;
+    color: #3c3c3c;
+}
+
+.playerName {
+    text-align: right;
+    color: #3c3c3c;
+    font-family: Arial, tahoma, 'HelveticaNeue';
+    font-size: 12px;
+    padding-right: 8px;
+    border-bottom: 1px solid #b2b5b5;
 }
