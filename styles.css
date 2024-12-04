@@ -130,6 +130,9 @@ p {
 .teamBlockWrapper {
     margin: 20px 0 20px 8px;
     height: 383px;
+    display: flex;
+    gap: 3px;
+    max-width: 1202px;
 }
 
 .tableContainer {
@@ -140,7 +143,7 @@ p {
 }
 
 .table {
-    width: 100%;
+    width: 235px;
     border-collapse: collapse;
 }
 
@@ -174,4 +177,96 @@ p {
     font-size: 12px;
     padding-right: 8px;
     border-bottom: 1px solid #b2b5b5;
+}
+
+.matchesAndCalendarWrapper {
+    display: flex;
+    flex-direction: column;
+    width: 475px;
+    gap: 3px;
+}
+
+.matches {
+    width: 475px;
+    height: 383px;
+    border: 1px solid #ccc;
+    background-image: url(bg_default.jpg);
+}
+
+.matchesHeader {
+    background: #22270F;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 0 10px; 
+    line-height: 220%;
+    height: 27px;
+    font-family: 'PT Sans', Tahoma, 'HelveticaNeue', sans-serif;
+    display: flex;
+    align-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.chevron {
+    cursor: pointer;
+}
+
+.matchInfo {
+    height: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.matchInfoScore {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.score {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25px;
+    height: 46px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    font-size: 21px;
+    font-family: 'PT Sans', Tahoma, 'HelveticaNeue';
+}
+
+.scoreDots {
+    font-weight: bold;
+    font-size: 21px;
+    font-family: 'PT Sans', Tahoma, 'HelveticaNeue';
+}
+
+.calendar {
+    width: 475px;
+    height: 383px;
+    border: 1px solid #ccc;
+}
+
+.calendarHeader {
+    background: #22270F;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 0 10px; 
+    line-height: 220%;
+    height: 27px;
+    font-family: 'PT Sans', Tahoma, 'HelveticaNeue', sans-serif;
+    display: flex;
+    align-items: center;
+}
+
+.ligueTable {
+    width: 100%;
+    height: 383px;
+    border: 1px solid #ccc;
 }
